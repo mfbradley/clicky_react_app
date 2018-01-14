@@ -1,10 +1,6 @@
 import React from "react";
+import styles from "../../styles/Image.css";
 
-
-const styles = {
-    width: 150,
-    height: 150,
-};
 
 const Image = props => {
     console.log(props);
@@ -13,7 +9,7 @@ const Image = props => {
         <div class="col s3 m3">
             <div class="card">
                 <div class="card-image">
-                    <img style={styles} src={props.src} alt={props.alt}/>
+                    <img style={styles} src={props.src} alt={props.alt} onClick={props.imageShuffle}/>
                 </div>
             </div>
         </div>

@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import './styles/App.css';
 import NavBar from "./components/NavBar";
 import Header from "./components/Header";
 import Image from "./components/Image";
-import images from "./components/Image/images.json";
+import images from "./images.json";
+import styles from "./styles/App.css";
 
 class App extends Component {
   
@@ -18,46 +18,30 @@ class App extends Component {
     return images;
   }
   
-  
+  render() {
+    return(
+      <div className="App">
+        <NavBar />
+
+        <Header />
         
-  imageShuffle = images => {
-    const shuffledImages = this.shuffleArray;
-    
-    return (
-      <ul>
-        {shuffledImages.map(image => {
+        <div className="container">
+        {images.map(image => {
           return (
             <Image
             src={image.src}
             alt={image.alt}
+            onClick={this.shuffleArray}
             />
           );
         })}
-      </ul>
-    );
-  }
-  
-  
-  
-  render() {
-    return(
-      <div className="App">
-        <Header />
-        <NavBar />
+        </div>
         
-        {images.map(image => {
-          return(
-            <Image
-            src={image.src}
-            alt={image.alt}
-            />
-        )})}
       </div>
       
       );
   }
-} 
-
+}
 
 
 export default App;

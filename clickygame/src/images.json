@@ -1,0 +1,88 @@
+[
+    {
+    "id": 1,
+    "src":
+      "http://givetogrant.org/content/wp-content/uploads/2013/10/fruit-stripe-gum.jpg",
+    "alt": "Fruit Stripe Gum"
+    },
+
+    {
+    "id": 2,
+    "src":
+      "https://images-na.ssl-images-amazon.com/images/I/81Vud%2Bi%2BCaL._AC_UL160_SR160,160_.jpg",
+    "alt": "Surge"
+    },
+    
+    {
+    "id": 3,
+    "src":
+      "http://del.h-cdn.co/assets/15/45/768x768/gallery-1446730608-delish-dunkaroos.jpg",
+    "alt": "Dunkaroos"
+    },
+    
+    {
+    "id": 4,
+    "src":
+      "https://assets.change.org/photos/1/cu/rx/glcuRxtXatNcXsW-800x450-noPad.jpg?1423802432",
+    "alt": "3D Doritos"
+    },
+    
+    {
+    "id": 5,
+    "src":
+      "https://i.imgur.com/Y2xNMKe.jpg",
+    "alt": "Ouch Bubblegum"
+    },
+    
+    {
+    "id": 6,
+    "src":
+      "https://americanfizz.co.uk/image/cache/catalog/american-breakfast-cereals/general-mills/general-mills-french-toast-crunch-cereal-328g-800x800.png",
+    "alt": "French Toast Crunch"
+    },
+    
+    {
+    "id": 7,
+    "src":
+      "http://media.beliefnet.com/~/media/photos-with-attribution/entertainment/galleries/80s-snacks/sharkbites.jpg?as=1&w=400",
+    "alt": "Shark Bites Gummies"
+    },
+    
+    {
+    "id": 8,
+    "src":
+      "https://images2.westword.com/imager/five-food-and-drink-items-from-the-90s-we/u/original/6453540/clearcanapromo.jpg",
+    "alt": "Clearly Canadian"
+    },
+    
+    {
+    "id": 9,
+    "src":
+      "https://i.pinimg.com/736x/2e/33/b1/2e33b1014fb39bb4a0b57aa7c7b56827--s-food-food-networktrisha.jpg",
+    "alt": "Heinz EZ Squirt"
+    },
+    
+    {
+    "id": 10,
+    "src":
+      "https://img.oola.com/filter:scale/slides/1/5/3/3/5/4/1533546180/9a93ffde16d14d284861513cfbc52d08ff0fca2c.jpeg?mw=615",
+    "alt": "Sueeze It"
+    },
+    
+    {
+    "id": 11,
+    "src":
+      "http://files.shandymedia.com/wp-content/uploads/2017/05/14001957/25-90s-foods.jpg",
+    "alt": "Dinosaur Eggs Oatmeal"
+    },
+    
+    {
+    "id": 12,
+    "src":
+      "https://search.chow.com/thumbnail/800/0/www.chowstatic.com/blog-media/2017/06/minute-made-juice-bars-chowhound-670x483.jpg",
+    "alt": "Minute Maid Juice Bars"
+    }
+
+
+
+]
