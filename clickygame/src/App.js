@@ -6,8 +6,11 @@ import images from "./images.json";
 import styles from "./styles/App.css";
 
 class App extends Component {
+  state = {
+    images
+  }
   
-  shuffleArray = (images) => {
+  shuffleArray = () => {
     let i = images.length - 1;
     for (; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
@@ -15,13 +18,14 @@ class App extends Component {
       images[i] = images[j];
       images[j] = temp;
     }
+    
+    this.setState({ images });
     return images;
   }
   
   render() {
     return(
-      <div className="App">
-        <NavBar />
+      <div style={styles} className="App">
 
         <Header />
         
@@ -31,7 +35,7 @@ class App extends Component {
             <Image
             src={image.src}
             alt={image.alt}
-            onClick={this.shuffleArray}
+            suffleArray={this.shuffleArray}
             />
           );
         })}

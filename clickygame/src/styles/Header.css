@@ -1,0 +1,11 @@
+.App-header {
+    color: white;
+    padding: 20px;
+    background-image: url("https://i.pinimg.com/736x/03/d5/9f/03d59f68a0fc74b9ed1e21a8cbd0aea4.jpg");
+}
+
+.header-content {
+    background-color: black;
+    padding: 5px;
+    margin: 10px;
+}

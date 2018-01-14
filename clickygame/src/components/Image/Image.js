@@ -9,7 +9,11 @@ const Image = props => {
         <div class="col s3 m3">
             <div class="card">
                 <div class="card-image">
-                    <img style={styles} src={props.src} alt={props.alt} onClick={props.imageShuffle}/>
+                    <img 
+                    style={styles} 
+                    src={props.src} 
+                    alt={props.alt} 
+                    onClick={() => props.suffleArray()}/>
                 </div>
             </div>
         </div>
