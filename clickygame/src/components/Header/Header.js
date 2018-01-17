@@ -2,7 +2,7 @@ import React from "react";
 import styles from "../../styles/Header.css";
 const Header = props => 
 
-    <header className="App-header">
+    <header style={styles} className="App-header">
         <div className="header-content">
             <h1 className="App-title">90's Clicky Game!</h1>
             <p>Click an image to earn points, but don't click the same image twice!</p>
