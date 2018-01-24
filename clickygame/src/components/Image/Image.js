@@ -1,7 +1,9 @@
 import React from "react";
 import styles from "../../styles/Image.css";
 
-
+// individual image component 
+// uses props for src and alt 
+// onclick function to update score and attribute wasclicked
 const Image = props => {
     console.log(props);
   

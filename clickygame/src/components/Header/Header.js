@@ -1,5 +1,8 @@
 import React from "react";
 import styles from "../../styles/Header.css";
+
+// header component using props for score and best score
+// includes app title and divs for score and best score
 const Header = props => 
 
     <header style={styles} className="App-header">

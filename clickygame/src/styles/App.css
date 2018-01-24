@@ -1,10 +1,12 @@
+/* container for all components */
 .App {
     width: 100%;
     text-align: center;
     
-    
 }
 
+
+/* container for all images */
 .container {
     width: 20%;
     
